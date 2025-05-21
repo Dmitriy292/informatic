@@ -1,0 +1,7 @@
+
+
+export default function Title({text}: string) {
+    return (
+       <h1 className="text-xl text-red-700 text-center mb-10" >{text}</h1>
+    );
+}
